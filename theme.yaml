@@ -1,9 +1,9 @@
 apiVersion: theme.halo.run/v1alpha1
 kind: Theme
 metadata:
-  name: theme-vite-starter
+  name: theme-cute
 spec:
-  displayName: Vite Starter
+  displayName: theme-cute <二次元主题/>
   author:
     name: Halo
     website: https://github.com/halo-dev
