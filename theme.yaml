@@ -14,7 +14,7 @@ spec:
   issues: https://github.com/halo-dev/theme-vite-starter/issues
   settingName: "theme-vite-starter-setting"
   configMapName: "theme-vite-starter-configMap"
-  version: 1.0.0
+  version: 1.0.1
   requires: ">=2.0.0"
   license:
     - name: "GPL-3.0"
