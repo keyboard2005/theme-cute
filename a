@@ -1,0 +1,1 @@
+browser-sync start --proxy "http://127.0.0.1:8090" --files "/home/keyboard/.halo2/themes/theme-cute/templates/**/*"

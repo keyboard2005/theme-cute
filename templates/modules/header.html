@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <header class="header" id="header">
+    <a class="logo" th:href="@{/}">
+      <img th:src="${site.logo}" alt="logo" />
+      <span th:text="${site.title}"></span>
+    </a>
+
+    <nav class="nav">
+      <ul>
+        <li th:each="menuItem : ${menuFinder.getPrimary().menuItems}">
+          <a th:href="${menuItem.status.href}" th:text="${menuItem.status.displayName}"></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</html>
