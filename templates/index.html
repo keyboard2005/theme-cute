@@ -3,66 +3,7 @@
   <th:block th:fragment="content">
     <div class="index-content">
       <th:block th:replace="~{modules/header}"></th:block>
-      <ul>
-        <li th:each="post : ${posts.items}">
-          <a th:text="${post.spec.title}" th:href="${post.status.permalink}"></a>
-        </li>
-      </ul>
-      <ul>
-        <li th:each="post : ${posts.items}">
-          <a th:text="${post.spec.title}" th:href="${post.status.permalink}"></a>
-        </li>
-      </ul>
-      <ul>
-        <li th:each="post : ${posts.items}">
-          <a th:text="${post.spec.title}" th:href="${post.status.permalink}"></a>
-        </li>
-      </ul>
-      <ul>
-        <li th:each="post : ${posts.items}">
-          <a th:text="${post.spec.title}" th:href="${post.status.permalink}"></a>
-        </li>
-      </ul>
-      <ul>
-        <li th:each="post : ${posts.items}">
-          <a th:text="${post.spec.title}" th:href="${post.status.permalink}"></a>
-        </li>
-      </ul>
-      <ul>
-        <li th:each="post : ${posts.items}">
-          <a th:text="${post.spec.title}" th:href="${post.status.permalink}"></a>
-        </li>
-      </ul>
-      <ul>
-        <li th:each="post : ${posts.items}">
-          <a th:text="${post.spec.title}" th:href="${post.status.permalink}"></a>
-        </li>
-      </ul>
-      <ul>
-        <li th:each="post : ${posts.items}">
-          <a th:text="${post.spec.title}" th:href="${post.status.permalink}"></a>
-        </li>
-      </ul>
-      <ul>
-        <li th:each="post : ${posts.items}">
-          <a th:text="${post.spec.title}" th:href="${post.status.permalink}"></a>
-        </li>
-      </ul>
-      <ul>
-        <li th:each="post : ${posts.items}">
-          <a th:text="${post.spec.title}" th:href="${post.status.permalink}"></a>
-        </li>
-      </ul>
-      <ul>
-        <li th:each="post : ${posts.items}">
-          <a th:text="${post.spec.title}" th:href="${post.status.permalink}"></a>
-        </li>
-      </ul>
-      <ul>
-        <li th:each="post : ${posts.items}">
-          <a th:text="${post.spec.title}" th:href="${post.status.permalink}"></a>
-        </li>
-      </ul>
+      <th:block th:replace="~{modules/topbanner}"></th:block>
       <ul>
         <li th:each="post : ${posts.items}">
           <a th:text="${post.spec.title}" th:href="${post.status.permalink}"></a>
